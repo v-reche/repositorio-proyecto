@@ -1,0 +1,95 @@
+$oficialcolor: #FF8585;
+$secondarycolor: #3A4BFF;
+$secondaryfont:'Anton';
+$font:(
+  color: #3A4BFF,
+  family: 'kremlin',
+  size: 16px,
+  font-weight:bold,
+);
+
+body {
+    background-color: $oficialcolor; 
+}
+
+nav {
+    div {
+        font-family: map-get($font, family);
+
+        .navbar-nav a.navbar-item.nav-link {
+            color: map-get($font, color);
+            &.active{
+                color: #fff;
+                font-weight: map-get($font, font-weight);
+            }
+        }
+
+        li {
+            #navbarDropdownMenuLink {
+            color: map-get($font, color); 
+            }
+        }
+
+        ul.dropdown-menu{
+                font-family: $secondaryfont;
+        }    
+    }
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    color: white;
+    opacity: 50%;
+    text-align: center;
+}
+
+.section__titulo {
+    background-color: $secondarycolor;
+    color: $oficialcolor; 
+    text-align: center;
+    font-family: map-get($font, family);
+    padding-left: 2em;
+}
+
+
+.section__subtitulo {
+    text-align: center;
+    margin-top: 10px;
+    padding: 1em;
+    color: #3A4BFF;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.section__parrafo {
+    font-family:$secondaryfont, sans-serif;
+    font-size: 12pt;
+    margin: 20px 0px 0 20px;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img {
+    padding: 5px;
+}
+
+iframe {
+    padding: 5px;
+}
+
+section form {
+    padding: 1em;
+}
+
