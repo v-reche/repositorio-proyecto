@@ -1,11 +1,14 @@
 $oficialcolor: #FF8585;
 $secondarycolor: #3A4BFF;
-$secondaryfont:'Anton';
+$secondaryfont: (family:'Anton',
+src: url (anton-regular.ttf)
+);
 $font:(
   color: #3A4BFF,
   family: 'kremlin',
   size: 16px,
   font-weight:bold,
+  src: url (kremlin.ttf)
 );
 
 body {
