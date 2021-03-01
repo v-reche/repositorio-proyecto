@@ -7,11 +7,11 @@
 	<link rel="icon" href="assets/favicon.jpg" type="image" sizes="16x16">
 	<meta name="description" content="Sitio web oficial, Conociendo Rusia, Mateo Sujatovich, RRSS, instagram, contacto">
 	<meta name="keywords" content="música, videos, banda, nacional, shows">
-	<link rel="stylesheet" href="estilos.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilo.css">
 </head>
 <style>A {text-decoration: none;} </style>
-<body class="bodyback">
+<body>
 <header>
 	<nav class="navbar navbar-expand-lg navbar-light">
 		<a class="navbar-brand" href="index.html">
@@ -22,11 +22,11 @@
     </button>
 	<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       <div class="navbar-nav mx-auto">
-        <a class="navbar-item nav-link active" aria-current="page" href="index.html" id="color-nav">Home</a>
+        <a class="navbar-item nav-link" aria-current="page" href="index.html" id="color-nav">Home</a>
         <a class="navbar-item nav-link" href="agenda.html" id="color-nav">Agenda</a>
         <a class="navbar-item nav-link" href="bio.html" id="color-nav">Bio</a>
         <a class="navbar-item nav-link" href="galeria.html" id="color-nav">Galeria</a>
-        <a class="navbar-item nav-link" href="social.html" id="color-nav">Social</a>
+        <a class="navbar-item nav-link active" href="social.html" id="color-nav">Social</a>
 	        <li class="navbar-item nav-item dropdown" class="navbar" class="nav-link">
 	          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="color-nav">
 	           Se dice de mi
@@ -46,29 +46,28 @@
 
 	<main>
 		<section> <br>
-			<h2 class="titulo">Social</h2>
-			<div>
-				<p class="sub">Redes Sociales</p>
-					<a href="https://www.instagram.com/conociendorusia/" target="_blank">
-					<img src="assets/redes.png" alt="instagram" width="1500px" class="img-fluid"> </a>
+			<h2 class="section__titulo">Social</h2>
+			<div class="grid-galeria">
+				<a class="twitter-timeline" data-width="600" data-height="425" data-theme="dark" href="https://twitter.com/conociendorusia?ref_src=twsrc%5Etfw">Tweets by conociendorusia</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				<iframe src="https://open.spotify.com/embed/artist/79R7PUc6T6j09G8mJzNml2" width="600" height="425" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 			</div>
 		</section>
 
 		<section> 
-			<p class="sub">Formulario de contacto</p>
+			<p class="section__subtitulo">Contáctanos ;)</p>
 			<div class="flex-menu">
 			<form class="row g-3">
 			  <div class="col-md-6">
 			    <label for="nombre" class="form-label">Nombre</label>
-			    <input type="nombre" class="form-control" id="inputEmail4">
+			    <input type="nombre" class="form-control" id="inputEmail4" placeholder="Tu nombre">
 			  </div>
 			  	<div class="col-md-6">
 			    <label for="apellido" class="form-label">Apellido</label>
-			    <input type="apellido" class="form-control" id="inputEmail4">
+			    <input type="apellido" class="form-control" id="inputEmail4" placeholder="Tu apellido">
 			  </div>
 			  <div class="col-12">
 			    <label for="email" class="form-label">Email</label>
-			    <input type="text" class="form-control" id="inputAddress" placeholder="example@gmail.com">
+			    <input type="text" class="form-control" id="inputAddress" placeholder="tucorreo@mail.com">
 			  </div>
 			  <div class="col-md-4">
 			    <label for="sexo" class="form-label">Sexo</label>
@@ -81,7 +80,7 @@
 			  </div>
 			  <div class="col-12">
 			    <label for="mensaje" class="form-label">Mensaje</label> <br>
-			    <textarea name="mensaje" rows="5" cols="100"></textarea>
+			    <textarea name="mensaje" rows="5" cols="170" placeholder="¡Dejanos tu mensaje!"></textarea>
 			  </div>
 			  <div class="col-12">
 			    <div class="form-check">
