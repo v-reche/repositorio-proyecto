@@ -1,14 +1,11 @@
 $oficialcolor: #FF8585;
 $secondarycolor: #3A4BFF;
-$secondaryfont: (family:'Anton',
-src: url (anton-regular.ttf)
-);
+$secondaryfont:'sans-serif';
 $font:(
   color: #3A4BFF,
-  family: 'kremlin',
+  font-family: 'fantasy',
   size: 16px,
   font-weight:bold,
-  src: url (kremlin.ttf)
 );
 
 body {
@@ -45,7 +42,7 @@ nav {
 
 
 .parrafo {
-    font-family: 'Anton', sans-serif;
+    font-family: sans-serif;
     font-size: 11pt;
     margin: 20px 0px 0 20px;
 }
