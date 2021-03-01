@@ -1,3 +1,7 @@
+@font-face {
+  src: url(kremlin.ttf);
+  font-family: 'krem'; }
+
 body {
   background-color: #FF8585; }
 
@@ -5,7 +9,7 @@ nav {
   font-size: 120%; }
 
 nav div {
-  font-family: "kremlin"; }
+  font-family: 'krem'; }
   nav div .navbar-nav a.navbar-item.nav-link {
     color: #3A4BFF; }
     nav div .navbar-nav a.navbar-item.nav-link.active {
@@ -14,10 +18,10 @@ nav div {
   nav div li #navbarDropdownMenuLink {
     color: #3A4BFF; }
   nav div ul.dropdown-menu {
-    font-family: "Anton"; }
+    font-family: sans-serif; }
 
 .parrafo {
-  font-family: 'Anton', sans-serif;
+  font-family: sans-serif;
   font-size: 11pt;
   margin: 20px 0px 0 20px; }
 
@@ -70,7 +74,7 @@ footer {
   background-color: #3A4BFF;
   color: #FF8585;
   text-align: center;
-  font-family: "kremlin";
+  font-family: 'krem';
   padding-left: 2em; }
 
 .section__subtitulo {
@@ -84,7 +88,7 @@ footer {
   padding: 5px; }
 
 .section__parrafo {
-  font-family: "Anton", sans-serif;
+  font-family:sans-serif;
   font-size: 12pt;
   margin: 20px 0px 0 20px; }
 
